@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "company_logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png",
+    "job_title": "Software Developer",
+    "company_name": "ABC Technologies",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000 per year",
+    "job_description": "We are seeking an experienced Software Developer to join our team. The ideal candidate will have strong coding skills and a solid understanding of software development principles.",
+    "job_responsibility": "• Develop and maintain software applications using programming languages such as Java, C++, or Python.\n• Collaborate with cross-functional teams to gather requirements and develop software solutions.\n• Debug and resolve software defects and issues.\n• Participate in code reviews and provide feedback to peers.\n• Stay updated with the latest trends and best practices in software development.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering, or a related field.",
+    "experiences": "3+ years of experience in software development.",
+    "contact_information": {
+      "phone": "+1 (123) 456-7890",
+      "email": "careers@abc-tech.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "data:image/png;base64,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",
+    "job_title": "Data Scientist",
+    "company_name": "DEF Analytics",
+    "remote_or_onsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $120,000 per year",
+    "job_description": "We are looking for a skilled Data Scientist to analyze and interpret complex data sets. The ideal candidate will have strong statistical analysis skills and experience with data visualization tools.",
+    "job_responsibility": "• Analyze and interpret complex data sets using statistical methods.\n• Develop and implement machine learning algorithms to solve business problems.\n• Create data visualizations and reports to communicate findings to stakeholders.\n• Collaborate with cross-functional teams to gather data requirements and develop data-driven solutions.\n• Stay updated with the latest trends and techniques in data science.",
+    "educational_requirements": "Master's degree or higher in Data Science, Statistics, or a related field.",
+    "experiences": "2+ years of experience in data science or related field.",
+    "contact_information": {
+      "phone": "+1 (234) 567-8901",
+      "email": "jobs@def-analytics.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAclBMVEX////lCRTkAADlABD++fn83N7mGyP3wMLweX71sLLvgoX1rK/lAAj+9vfrSlD72Nr97/DnEB3wfoLpPUP96uv95efsWl/4u771pan5x8roKzLrQEj70tTzlZnvbXL3trnnIivqMzvtY2nznJ/qU1fwjZCE6y5/AAAC40lEQVRoge2W2ZaiMBBAs7CpYVMQUGnB5f9/caoSkKU74Jx2nqbugyQCuUmoVMIYQRAEQRAEQRAEQRAEQRAE8b8QCgALWVeIxUDONqOadNluVGUsgN/y1VIBtS9oMILrFv8o8anQ4nUE56KCQiIlR6/rSW6QXs6ugvfIE3bjVUsZ2woudq+WfKgFcN0Jrk4JdOABf2xt49Xe/dwrEaW9UNAeqXqvuWn16hZ9xi6CS3FZ8somm3lTTZPD5MEVxWnKW+M193hj88L0c3Fk7AaXyKbVXi6KiVcd3EQDt+G3gomLcl3dYNthf9PirWA6PDeH/uOwF73HmTcZPxKj18QHevevGxavc1Zc3Et4a9rOdy90b+rNfuOFQIYWW2iutmqNl8Ny+KA3g4iA1qSwD7fzqvMH51lHFg4msGs7Lxf5yCubIAi+jv0amHo59wAI9QVvZbzVmhc/RciHdSR1QuqDce7F1csXvQyXnmoXtNqbniQslHSWr6xe3dFl7x1zx2bNK2t4xffm4y1+9vape9VrzVW9V8SpVMfT8H1PZVH4RR9c3+LKAdiiV8Cc4Sax4nUeCsKFfyyeryZobHvRy8vqLqrZR9av8zDxfF31Zh/14jKSJvuuePse/r13CNrBCzuRbFE8aeYnL6bUkfesLU7yhnfvVxc3C8feGFdkEcHm8Fz1ZmMv96JDA+slzVe93aoS8XT/VQcHHlXn5f0IdbB3DV6uFJ4pvDe8XY4ZeUOhd6KskUuZsvfuxNirs+EwXiEOxovnuiHb77vBKjX24i6o4Mt+Qf226nUbTFNY6KYubaObiYvkXpaFThQsdF13mDu/rp/PbXB7RLB/6/MkeMOTkPo4h+craY2s3suOoIKzGsu2dVnEeZYloWPt7bSJMEzg0aQq7pBaL4fWEy72ESNrZ32pPz9fiirO3xOtkLnms96h5bPV+7xeFo4Fv8Mt6qVcSRAEQRAEQRAEQRAEQRAEQfwb/gApjinSEUmDQwAAAABJRU5ErkJggg==",
+    "job_title": "UI/UX Designer",
+    "company_name": "PQR Solutions",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$60,000 - $80,000 per year",
+    "job_description": "We are seeking a talented UI/UX Designer to create visually appealing and user-friendly interfaces for web and mobile applications. The ideal candidate will have a strong portfolio showcasing their design skills and experience with UI/UX design principles.",
+    "job_responsibility": "• Create wireframes, mockups, and prototypes for web and mobile applications.\n• Collaborate with cross-functional teams to gather requirements and translate them into design concepts.\n• Conduct user research and usability testing to gather feedback for iterative design.\n• Ensure consistency in visual design and user experience across different platforms.\n• Stay updated with the latest design trends and best practices in UI/UX design.",
+    "educational_requirements": "Bachelor's degree in Design, Interaction Design, or a related field.",
+    "experiences": "3+ years of experience in UI/UX design for web and mobile applications.",
+    "contact_information": {
+      "phone": "+1 (345) 678-9012",
+      "email": "careers@pqr-solutions.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "data:image/jpeg;base64,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",
+    "job_title": "Network Administrator",
+    "company_name": "XYZ Networks",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$75,000 - $95,000 per year",
+    "job_description": "We are looking for a skilled Network Administrator to manage and maintain our company's network infrastructure. The ideal candidate will have strong networking skills and experience with network hardware and software.",
+    "job_responsibility": "• Install, configure, and maintain network hardware and software.\n• Monitor and troubleshoot network performance and security issues.\n• Collaborate with cross-functional teams to gather network requirements and implement solutions.\n• Provide technical support for network-related incidents and requests.\n• Stay updated with the latest networking technologies and best practices.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Information Technology, or a related field.",
+    "experiences": "2+ years of experience in network administration.",
+    "contact_information": {
+      "phone": "+1 (456) 789-0123",
+      "email": "jobs@xyz-networks.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "data:image/jpeg;base64,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",
+    "job_title": "Frontend Developer",
+    "company_name": "LMN Technologies",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$40 - $60 per hour",
+    "job_description": "We are seeking a skilled Frontend Developer to create responsive and user-friendly web interfaces. The ideal candidate will have strong coding skills in HTML, CSS, and JavaScript.",
+    "job_responsibility": "• Develop responsive web interfaces using HTML, CSS, and JavaScript.\n• Collaborate with backend developers and UI/UX designers to implement web designs.\n• Optimize web performance for maximum speed and scalability.\n• Troubleshoot and debug frontend issues.\n• Stay updated with the latest frontend technologies and best practices.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering, or a related field.",
+    "experiences": "2+ years of experience in frontend development.",
+    "contact_information": {
+      "phone": "+1 (567) 890-1234",
+      "email": "careers@lmn-tech.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "data:image/png;base64,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",
+    "job_title": "Data Scientist",
+    "company_name": "ABC Analytics",
+    "remote_or_onsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $120,000 per year",
+    "job_description": "We are looking for a skilled Data Scientist to analyze large datasets and extract valuable insights to drive business decision-making. The ideal candidate will have strong statistical analysis skills and experience with machine learning algorithms.",
+    "job_responsibility": "• Analyze large datasets using statistical methods and machine learning techniques.\n• Develop predictive models and algorithms to identify patterns and trends in data.\n• Collaborate with cross-functional teams to provide data-driven insights for business decision-making.\n• Communicate findings and recommendations to stakeholders in a clear and concise manner.\n• Stay updated with the latest data science tools and techniques.",
+    "educational_requirements": "Master's or PhD in Computer Science, Statistics, or a related field.",
+    "experiences": "3+ years of experience in data science or a related field.",
+    "contact_information": {
+      "phone": "+1 (678) 901-2345",
+      "email": "jobs@abc-analytics.com"
+    }
+  }
+]
