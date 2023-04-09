@@ -1,10 +1,7 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { CommonBtn } from "../../App";
 
 const NavBar = () => {
-  const btn = useContext(CommonBtn);
-
   return (
     <nav className="w-[96%] max-w-[1280px] mx-auto mt-8 mb-12 text-center  sm:flex justify-between items-center">
       <Link to="/">
@@ -26,10 +23,7 @@ const NavBar = () => {
           <Link to="/blog">Blog</Link>
         </li>
       </ul>
-      <button
-        className="py-3 px-3 rounded-lg text-white text-md font-semibold"
-        style={btn}
-      >
+      <button className="bg-gradient-to-r from-[#7E90FE] to-[#9873FF] py-3 px-3 rounded-lg text-white text-md font-semibold">
         Star Applying
       </button>
     </nav>
