@@ -7,7 +7,7 @@ const Banner = () => {
       <div>
         <h1 className="text-[80px] font-extrabold leading-[100px]">
           One Step Closer To Your
-          <span className="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
             Dream Job
           </span>
         </h1>
