@@ -9,7 +9,7 @@
     "fulltime_or_parttime": "Full-time",
     "salary": "$80,000 - $100,000 per year",
     "job_description": "We are seeking an experienced Software Developer to join our team. The ideal candidate will have strong coding skills and a solid understanding of software development principles.",
-    "job_responsibility": "• Develop and maintain software applications using programming languages such as Java, C++, or Python.\n• Collaborate with cross-functional teams to gather requirements and develop software solutions.\n• Debug and resolve software defects and issues.\n• Participate in code reviews and provide feedback to peers.\n• Stay updated with the latest trends and best practices in software development.",
+    "job_responsibility": " Develop and maintain software applications using programming languages such as Java, C++, or Python. Collaborate with cross-functional teams to gather requirements and develop software solutions. Debug and resolve software defects and issues. Participate in code reviews and provide feedback to peers. Stay updated with the latest trends and best practices in software development.",
     "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering, or a related field.",
     "experiences": "3+ years of experience in software development.",
     "contact_information": {
@@ -27,7 +27,7 @@
     "fulltime_or_parttime": "Full-time",
     "salary": "$90,000 - $120,000 per year",
     "job_description": "We are looking for a skilled Data Scientist to analyze and interpret complex data sets. The ideal candidate will have strong statistical analysis skills and experience with data visualization tools.",
-    "job_responsibility": "• Analyze and interpret complex data sets using statistical methods.\n• Develop and implement machine learning algorithms to solve business problems.\n• Create data visualizations and reports to communicate findings to stakeholders.\n• Collaborate with cross-functional teams to gather data requirements and develop data-driven solutions.\n• Stay updated with the latest trends and techniques in data science.",
+    "job_responsibility": " Analyze and interpret complex data sets using statistical methods. Develop and implement machine learning algorithms to solve business problems. Create data visualizations and reports to communicate findings to stakeholders. Collaborate with cross-functional teams to gather data requirements and develop data-driven solutions. Stay updated with the latest trends and techniques in data science.",
     "educational_requirements": "Master's degree or higher in Data Science, Statistics, or a related field.",
     "experiences": "2+ years of experience in data science or related field.",
     "contact_information": {
@@ -45,7 +45,7 @@
     "fulltime_or_parttime": "Full-time",
     "salary": "$60,000 - $80,000 per year",
     "job_description": "We are seeking a talented UI/UX Designer to create visually appealing and user-friendly interfaces for web and mobile applications. The ideal candidate will have a strong portfolio showcasing their design skills and experience with UI/UX design principles.",
-    "job_responsibility": "• Create wireframes, mockups, and prototypes for web and mobile applications.\n• Collaborate with cross-functional teams to gather requirements and translate them into design concepts.\n• Conduct user research and usability testing to gather feedback for iterative design.\n• Ensure consistency in visual design and user experience across different platforms.\n• Stay updated with the latest design trends and best practices in UI/UX design.",
+    "job_responsibility": " Create wireframes, mockups, and prototypes for web and mobile applications. Collaborate with cross-functional teams to gather requirements and translate them into design concepts. Conduct user research and usability testing to gather feedback for iterative design. Ensure consistency in visual design and user experience across different platforms. Stay updated with the latest design trends and best practices in UI/UX design.",
     "educational_requirements": "Bachelor's degree in Design, Interaction Design, or a related field.",
     "experiences": "3+ years of experience in UI/UX design for web and mobile applications.",
     "contact_information": {
@@ -63,7 +63,7 @@
     "fulltime_or_parttime": "Full-time",
     "salary": "$75,000 - $95,000 per year",
     "job_description": "We are looking for a skilled Network Administrator to manage and maintain our company's network infrastructure. The ideal candidate will have strong networking skills and experience with network hardware and software.",
-    "job_responsibility": "• Install, configure, and maintain network hardware and software.\n• Monitor and troubleshoot network performance and security issues.\n• Collaborate with cross-functional teams to gather network requirements and implement solutions.\n• Provide technical support for network-related incidents and requests.\n• Stay updated with the latest networking technologies and best practices.",
+    "job_responsibility": " Install, configure, and maintain network hardware and software. Monitor and troubleshoot network performance and security issues. Collaborate with cross-functional teams to gather network requirements and implement solutions. Provide technical support for network-related incidents and requests. Stay updated with the latest networking technologies and best practices.",
     "educational_requirements": "Bachelor's degree in Computer Science, Information Technology, or a related field.",
     "experiences": "2+ years of experience in network administration.",
     "contact_information": {
@@ -81,7 +81,7 @@
     "fulltime_or_parttime": "Part-time",
     "salary": "$40 - $60 per hour",
     "job_description": "We are seeking a skilled Frontend Developer to create responsive and user-friendly web interfaces. The ideal candidate will have strong coding skills in HTML, CSS, and JavaScript.",
-    "job_responsibility": "• Develop responsive web interfaces using HTML, CSS, and JavaScript.\n• Collaborate with backend developers and UI/UX designers to implement web designs.\n• Optimize web performance for maximum speed and scalability.\n• Troubleshoot and debug frontend issues.\n• Stay updated with the latest frontend technologies and best practices.",
+    "job_responsibility": " Develop responsive web interfaces using HTML, CSS, and JavaScript. Collaborate with backend developers and UI/UX designers to implement web designs. Optimize web performance for maximum speed and scalability. Troubleshoot and debug frontend issues. Stay updated with the latest frontend technologies and best practices.",
     "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering, or a related field.",
     "experiences": "2+ years of experience in frontend development.",
     "contact_information": {
@@ -99,7 +99,7 @@
     "fulltime_or_parttime": "Full-time",
     "salary": "$90,000 - $120,000 per year",
     "job_description": "We are looking for a skilled Data Scientist to analyze large datasets and extract valuable insights to drive business decision-making. The ideal candidate will have strong statistical analysis skills and experience with machine learning algorithms.",
-    "job_responsibility": "• Analyze large datasets using statistical methods and machine learning techniques.\n• Develop predictive models and algorithms to identify patterns and trends in data.\n• Collaborate with cross-functional teams to provide data-driven insights for business decision-making.\n• Communicate findings and recommendations to stakeholders in a clear and concise manner.\n• Stay updated with the latest data science tools and techniques.",
+    "job_responsibility": " Analyze large datasets using statistical methods and machine learning techniques. Develop predictive models and algorithms to identify patterns and trends in data. Collaborate with cross-functional teams to provide data-driven insights for business decision-making. Communicate findings and recommendations to stakeholders in a clear and concise manner. Stay updated with the latest data science tools and techniques.",
     "educational_requirements": "Master's or PhD in Computer Science, Statistics, or a related field.",
     "experiences": "3+ years of experience in data science or a related field.",
     "contact_information": {
