@@ -1,17 +1,54 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import dolorImg from "../../assets/Icons/frame.png";
 import titleImg from "../../assets/Icons/frame-1.png";
 import phoneImg from "../../assets/Icons/frame-2.png";
 import emailImg from "../../assets/Icons/frame-3.png";
 import locationImg from "../../assets/Icons/location.png";
-import { addToCart } from "../../utilities/fakeDB";
+import {
+  addToCart,
+  checkExistCart,
+  removeFromCart,
+} from "../../utilities/fakeDB";
+import toast from "react-hot-toast";
 
 const JobDetailCart = ({ jobInfo }) => {
   const { id, job_title, contact_information, location, salary } = jobInfo;
 
+  // react toast
+  const success = () => toast.success("Job Apply successful");
+  const error = () => toast.error("this job apply cancel successful");
+
+  const [isApply, setIsApply] = useState(false);
+
   // apply job
   const handleApplyJob = (id) => {
     addToCart(id);
+    setIsApply(true);
+    success();
+  };
+
+  const isExistsApply = () => {
+    const apply = checkExistCart(id);
+    if (apply) {
+      setIsApply(true);
+    } else {
+      setIsApply(false);
+    }
+  };
+
+  // load is previous apply
+  useEffect(() => {
+    isExistsApply();
+  }, []);
+
+  // remove job
+  const handleRemoveJob = (id) => {
+    const isConfirm = confirm("Are you sure this job apply cancel.");
+    if (isConfirm) {
+      removeFromCart(id);
+      error();
+      setIsApply(false);
+    }
   };
 
   return (
@@ -55,12 +92,21 @@ const JobDetailCart = ({ jobInfo }) => {
           </p>
         </div>
       </div>
-      <button
-        onClick={() => handleApplyJob(id)}
-        className="w-full bg-gradient-to-r from-[#7E90FE] to-[#9873FF] py-3 px-3 rounded-lg text-white text-md font-semibold"
-      >
-        Apply Now
-      </button>
+      {isApply ? (
+        <button
+          onClick={() => handleRemoveJob(id)}
+          className="w-full bg-gradient-to-r from-[#9a1818] to-[#971479] py-3 px-3 rounded-lg text-white text-md font-semibold"
+        >
+          Cancel Apply
+        </button>
+      ) : (
+        <button
+          onClick={() => handleApplyJob(id)}
+          className="w-full bg-gradient-to-r from-[#7E90FE] to-[#9873FF] py-3 px-3 rounded-lg text-white text-md font-semibold"
+        >
+          Apply Now
+        </button>
+      )}
     </>
   );
 };
