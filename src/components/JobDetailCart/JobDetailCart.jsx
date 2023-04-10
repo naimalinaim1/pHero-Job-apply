@@ -4,9 +4,15 @@ import titleImg from "../../assets/Icons/frame-1.png";
 import phoneImg from "../../assets/Icons/frame-2.png";
 import emailImg from "../../assets/Icons/frame-3.png";
 import locationImg from "../../assets/Icons/location.png";
+import { addToCart } from "../../utilities/fakeDB";
 
 const JobDetailCart = ({ jobInfo }) => {
   const { id, job_title, contact_information, location, salary } = jobInfo;
+
+  // apply job
+  const handleApplyJob = (id) => {
+    addToCart(id);
+  };
 
   return (
     <>
@@ -49,7 +55,10 @@ const JobDetailCart = ({ jobInfo }) => {
           </p>
         </div>
       </div>
-      <button className="w-full bg-gradient-to-r from-[#7E90FE] to-[#9873FF] py-3 px-3 rounded-lg text-white text-md font-semibold">
+      <button
+        onClick={() => handleApplyJob(id)}
+        className="w-full bg-gradient-to-r from-[#7E90FE] to-[#9873FF] py-3 px-3 rounded-lg text-white text-md font-semibold"
+      >
         Apply Now
       </button>
     </>

@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import JobDetail from "./components/JobDetail/JobDetail";
 import { jobDataLoad } from "./utilities/data-load";
+import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 
 const router = createBrowserRouter([
   {
@@ -21,12 +22,14 @@ const router = createBrowserRouter([
         element: <JobDetail />,
         loader: ({ params }) => jobDataLoad(params.id),
       },
+      {
+        path: "/applied-jobs",
+        element: <AppliedJobs />,
+      },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <RouterProvider router={router} />
 );
