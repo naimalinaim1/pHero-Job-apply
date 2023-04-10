@@ -6,9 +6,9 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <div className="w-[96%] max-w-[1280px] mx-auto">
+      <main className="w-[96%] max-w-[1280px] mx-auto">
         <Outlet />
-      </div>
+      </main>
     </>
   );
 };

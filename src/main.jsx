@@ -7,6 +7,7 @@ import HomePage from "./components/HomePage/HomePage";
 import JobDetail from "./components/JobDetail/JobDetail";
 import { jobDataLoad } from "./utilities/data-load";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
+import Statistics from "./components/Statistics/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics />,
       },
       {
         path: "/job/:id",
