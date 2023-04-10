@@ -5,7 +5,11 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import JobDetail from "./components/JobDetail/JobDetail";
-import { jobDataLoad } from "./utilities/data-load";
+import {
+  loadAllJob,
+  loadAppliedJobData,
+  singleJobDataLoad,
+} from "./utilities/data-load";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Statistics from "./components/Statistics/Statistics";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
@@ -15,6 +19,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    loader: loadAllJob,
     errorElement: <ErrorPage />,
     children: [
       {
@@ -28,11 +33,12 @@ const router = createBrowserRouter([
       {
         path: "/job/:id",
         element: <JobDetail />,
-        loader: ({ params }) => jobDataLoad(params.id),
+        loader: ({ params }) => singleJobDataLoad(params.id),
       },
       {
         path: "/applied-jobs",
         element: <AppliedJobs />,
+        loader: loadAppliedJobData,
       },
       {
         path: "/blog",
