@@ -1,11 +1,9 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useState } from "react";
 import OtherBanner from "../OtherBanner/OtherBanner";
 import ViewAppliedJob from "../ViewAppliedJob/ViewAppliedJob";
-import { JobData } from "../../App";
 import { useLoaderData } from "react-router-dom";
 
 const AppliedJobs = () => {
-  const allJobData = useContext(JobData);
   const appliedJobData = useLoaderData();
   const [showAppliedData, setShowAppliedData] = useState(appliedJobData);
 

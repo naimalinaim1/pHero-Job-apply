@@ -5,11 +5,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import JobDetail from "./components/JobDetail/JobDetail";
-import {
-  loadAllJob,
-  loadAppliedJobData,
-  singleJobDataLoad,
-} from "./utilities/data-load";
+import { loadAppliedJobData, singleJobDataLoad } from "./utilities/data-load";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Statistics from "./components/Statistics/Statistics";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
@@ -19,7 +15,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    loader: loadAllJob,
     errorElement: <ErrorPage />,
     children: [
       {
