@@ -3,11 +3,11 @@ import bannerImg from "../../assets/images/header-image.png";
 
 const Banner = () => {
   return (
-    <div className="bg-[#FAF8FF] grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+    <div className="bg-[#FAF8FF] text-center md:text-left py-10  grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
       <div>
-        <h1 className="text-[80px] font-extrabold leading-[100px]">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl  xl:text-[80px] font-extrabold leading-[60px] sm:leading-[100px]">
           One Step Closer To Your
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
+          <span className="md:block text-transparent bg-clip-text bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
             Dream Job
           </span>
         </h1>

@@ -12,7 +12,7 @@ const JobDetail = () => {
 
   if (jobInfo.id) {
     jobInfoJSX = (
-      <div className="grid grid-cols-[1fr_440px] gap-6">
+      <div className="px-4 sm:px-10 md:px-16 lg:px-0 grid grid-cols-1 lg:grid-cols-[1fr_440px] gap-6">
         <div>
           <JobDetailInfo jobInfo={jobInfo} />
         </div>

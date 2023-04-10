@@ -5,7 +5,10 @@ const OtherBanner = ({ title }) => {
   return (
     <header className="relative bg-[#FAF8FF] pt-4">
       <img src={bgImg} alt="banner icon" />
-      <h3 className="absolute top-[30%] left-[45%] text-center text-[#1A1919] text-3xl font-semibold">
+      <h3
+        className="absolute top-[50%] left-[50%]  text-[#1A1919] text-3xl font-semibold w-full text-center"
+        style={{ transform: "translate(-50%, -50%)" }}
+      >
         {title}
       </h3>
     </header>
