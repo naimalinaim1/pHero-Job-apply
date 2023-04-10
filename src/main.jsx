@@ -9,6 +9,7 @@ import { jobDataLoad } from "./utilities/data-load";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Statistics from "./components/Statistics/Statistics";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
+import Blog from "./components/Blog/Blog";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/applied-jobs",
         element: <AppliedJobs />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
       },
     ],
   },
