@@ -8,11 +8,13 @@ import JobDetail from "./components/JobDetail/JobDetail";
 import { jobDataLoad } from "./utilities/data-load";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Statistics from "./components/Statistics/Statistics";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
